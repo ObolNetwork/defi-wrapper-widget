@@ -23,7 +23,7 @@ const getMainContent = (state: TransactionModalState) => {
       <Text fontSize="lg" fontWeight="bold" color="fg" mb={2}>
         {state.details.actionTitleText}
       </Text>
-      <Text fontSize="sm" color="fg.subtle" mb={2}>
+      <Text fontSize="sm" color="fg" mb={2}>
         {state.details.actionDescriptionText}
       </Text>
     </Box>
@@ -170,7 +170,7 @@ export const TransactionModalContent = ({
         display="flex"
         width={'full'}
         height={'full'}
-        backgroundColor={'white'}
+        backgroundColor={'#111F22'}
         position={'relative'}
       >
         <Center
